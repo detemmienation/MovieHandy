@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admininfo</class>
+ <widget class="QWidget" name="admininfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>778</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stack">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>750</width>
+       <height>600</height>
+      </size>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="info_page">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>82</x>
+         <y>14</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>管理员ID：</string>
+       </property>
+      </widget>
+      <widget class="QTextBrowser" name="textBrowser">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>9</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="movie">
+       <property name="geometry">
+        <rect>
+         <x>59</x>
+         <y>78</y>
+         <width>611</width>
+         <height>401</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="do_manage">
+       <property name="geometry">
+        <rect>
+         <x>495</x>
+         <y>508</y>
+         <width>171</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>管理</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="refresh">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>15</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>刷新</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>342</x>
+         <y>514</y>
+         <width>113</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>63</x>
+         <y>513</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>输入用户id以进行管理：</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="manage_page">
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>214</x>
+         <y>177</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>用户密码：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>186</x>
+         <y>250</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>用户活跃度：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>238</x>
+         <y>100</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>用户ID：</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="do_delete">
+       <property name="geometry">
+        <rect>
+         <x>423</x>
+         <y>339</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>删除用户</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="do_update">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>340</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>更新用户信息</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="user_pass">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>177</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="user_act">
+       <property name="geometry">
+        <rect>
+         <x>342</x>
+         <y>248</y>
+         <width>113</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="back">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>450</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+      <widget class="QTextBrowser" name="user_id">
+       <property name="geometry">
+        <rect>
+         <x>338</x>
+         <y>99</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="none"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

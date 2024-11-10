@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>renew</class>
+ <widget class="QWidget" name="renew">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stack">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>750</width>
+       <height>600</height>
+      </size>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="Increase">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>172</x>
+         <y>87</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>影片ID：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>147</x>
+         <y>130</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>影片名称：</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="m_name">
+       <property name="geometry">
+        <rect>
+         <x>275</x>
+         <y>136</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>147</x>
+         <y>184</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>影片类型：</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="m_type">
+       <property name="geometry">
+        <rect>
+         <x>275</x>
+         <y>185</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="increase">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>490</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>影片上架</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 16pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>电影上架：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>144</x>
+         <y>228</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>影片时长：</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="m_brief">
+       <property name="geometry">
+        <rect>
+         <x>275</x>
+         <y>290</y>
+         <width>261</width>
+         <height>151</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>144</x>
+         <y>270</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>影片简介：</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="gotode">
+       <property name="geometry">
+        <rect>
+         <x>513</x>
+         <y>30</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 10pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>前往影片下架功能</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="m_id">
+       <property name="geometry">
+        <rect>
+         <x>275</x>
+         <y>89</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="m_time">
+       <property name="geometry">
+        <rect>
+         <x>275</x>
+         <y>236</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="Decrease">
+      <widget class="QTableWidget" name="movie">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>80</y>
+         <width>541</width>
+         <height>351</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 16pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>电影下架：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>430</y>
+         <width>701</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>（将所有已上架的电影信息以表格形式展示在下方，下架按钮可以嵌入在表内，也可以单独设计，比如：）</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>139</x>
+         <y>490</y>
+         <width>191</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>请选择下架影片ID：</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>511</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="gotoin">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>20</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 10pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>前往影片上架功能</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="decrease">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>499</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>影片下架</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="refresh">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>20</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 10pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>刷新</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="none"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

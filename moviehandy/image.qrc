@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>image/seat.png</file>
+        <file>image/seat_1.png</file>
+    </qresource>
+    <qresource prefix="/logo"/>
+</RCC>

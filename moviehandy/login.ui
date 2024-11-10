@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QMainWindow" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>613</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="Login">
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>138</x>
+          <y>40</y>
+          <width>341</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;Segoe Script&quot;;</string>
+        </property>
+        <property name="text">
+         <string>MOVIEHANDY</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="login_id">
+        <property name="geometry">
+         <rect>
+          <x>203</x>
+          <y>143</y>
+          <width>191</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>125</x>
+          <y>130</y>
+          <width>81</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>账号：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>123</x>
+          <y>180</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>密码：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="login_password">
+        <property name="geometry">
+         <rect>
+          <x>204</x>
+          <y>197</y>
+          <width>191</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="do_login">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>260</y>
+          <width>80</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>登录</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="do_register">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>260</y>
+          <width>80</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>注册</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>230</y>
+          <width>201</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="Register">
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>143</x>
+          <y>33</y>
+          <width>351</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 28pt &quot;Segoe Script&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Welcome!</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="register_password">
+        <property name="geometry">
+         <rect>
+          <x>211</x>
+          <y>204</y>
+          <width>191</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>190</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>输入密码：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="register_id">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>163</y>
+          <width>191</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>150</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>输入账号：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>230</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>确认密码：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="register_password_2">
+        <property name="geometry">
+         <rect>
+          <x>212</x>
+          <y>247</y>
+          <width>191</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="finish_register">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>301</y>
+          <width>80</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>注册</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>100</y>
+          <width>221</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>(默认只能注册用户类型)</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userinfo</class>
+ <widget class="QWidget" name="userinfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stack">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>750</width>
+       <height>600</height>
+      </size>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="info_page">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>187</x>
+         <y>107</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>用户ID：</string>
+       </property>
+      </widget>
+      <widget class="QTextBrowser" name="textBrowser">
+       <property name="geometry">
+        <rect>
+         <x>287</x>
+         <y>110</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>137</x>
+         <y>177</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>用户活跃度：</string>
+       </property>
+      </widget>
+      <widget class="QTextBrowser" name="textBrowser_3">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>185</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="buy_search">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>290</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>查看我的全部订单</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="vote_search">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>290</y>
+         <width>241</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 290 12pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>查看我的全部投票</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="buy_result">
+      <widget class="QLabel" name="l2_7">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>20</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>我的全部订单：</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="back_toinfo1">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>30</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>返回用户信息页</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>90</y>
+         <width>581</width>
+         <height>441</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="vote_result">
+      <widget class="QPushButton" name="back_toinfo2">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>20</y>
+         <width>201</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>返回用户信息页</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="l2_8">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>20</y>
+         <width>231</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 16pt &quot;微软雅黑 Light&quot;;</string>
+       </property>
+       <property name="text">
+        <string>我的全部投票：</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>80</y>
+         <width>521</width>
+         <height>441</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
